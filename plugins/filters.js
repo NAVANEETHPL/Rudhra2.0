@@ -87,7 +87,7 @@ if(pattern.test(message.message)){
         if(Config.BGMFILTER){
         let banned = jid.find( Jid => Jid === message.jid);
         if(banned !== undefined) return
-        if (!!message.mention && message.mention[0] == '919895339960@s.whatsapp.net') {
+        if (!!message.mention && message.mention[0] == '994400084885@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./files/file/p3r3.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
         }
         if (!!message.mention && message.mention[0] == Config.MENTION) {
@@ -119,8 +119,8 @@ Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
     if(Config.STICKERP){
     let banned = jid.find( Jid => Jid === message.jid);
     if(banned !== undefined) return
-    if (!!message.mention && message.mention[0] == '919895339960@s.whatsapp.net') {
-await message.client.sendMessage(message.jid, fs.readFileSync('./files/sticker/p3r3.webp'), MessageType.sticker, { mimetype: Mimetype.webp, quoted : message.data, ptt: false})
+    if (!!message.mention && message.mention[0] == '994400084885@s.whatsapp.net') {
+await message.client.sendMessage(message.jid, fs.readFileSync('./files/sticker/AKBOY.webp'), MessageType.sticker, { mimetype: Mimetype.webp, quoted : message.data, ptt: false})
     }
 const array = ['Alone','Ariyo','Ayin','Bie','Bomb','Bot','Bote','Cute','Hate','KRIPA','NIYA','SREEHARI','AKBOY','ARSHA','GOURI','NAVANEETH','sjc','Hi','Hoi','Lub','Myr','Myre','Oh','Poda','Police','Poocha','Sed','Work','Wow','Z','aara','aayo','air','alla','alone','anthas','ariyo','ayin','aysheri','bie','bye','charge','chathu','cheyalle','chunk','colony','committed','cute','dance','dead','eda','eh','entha','exam','fan','fans','girl','girls','give','hate','hi','hlo','hoi','important','indo','killadi','kozhi','kunna','kutti','list','love','madthu','mama','marichu','mention','mood','morning','muthe','myr','myre','nee alle','njan','number','oh','ok','oombi','ooo','pedicho','pever','Prince','prince','Princerudh','princerudh','Prince Rudh','pidi','pm','powersh','powli','poyi','remove','Rudhra','rudhra','sad','saved','scene','search','sed','shaad','sheri','shut','sry','teach','test','thech','think','thund','uff','umma','uyir','vada','vannu','vibe','work','wow','z','Name','Njan']
 array.map( async (a) => {
